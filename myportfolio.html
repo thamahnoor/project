@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> My Portfolio </title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: lightgray; 
+      color: darkslategray;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      color: white;
+      text-align: center;
+      background-color: black; 
+      margin-left: 50px;
+      padding-left: 50px;
+      font-size: 15px;
+      font-style: italic;
+      font-weight: normal;
+      text-decoration: bold-white; 
+
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      word-spacing: 1px;
+      line-height: 1.5;
+      border: 10px white; 
+      border-radius: 8px;
+      padding: 40px;
+
+    }
+    fieldset {
+      background-color: white;
+      border: 2px solid lightgray; /* Light gray border */
+      border-radius: 10px;
+      margin-bottom: 20px;
+      padding: 15px;
+    }
+    legend {
+      font-weight: bold;
+      color: midnightblue; 
+    }
+    input[type="text"], input[type="password"], input[type="date"], select {
+      padding: 10px;
+      margin-bottom: 15px;
+      width: 100%;
+      border-radius: 5px;
+      border: 2px solid gainsboro; 
+      font-size: 16px;
+    }
+    input[type="radio"] {
+      margin-right: 10px;
+    }
+    button {
+      padding: 12px 25px;
+      margin-top: 15px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: all 0.3s ease; 
+    }
+    button[type="submit"] {
+      background-color: mediumseagreen;
+      color: white;
+      border: none;
+    }
+    button[type="reset"] {
+      background-color: firebrick; 
+      color: white;
+      border: none;
+    }
+    button:hover {
+      opacity: 0.9;
+      transform: scale(1.1); 
+    }
+    img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      border-radius: 10px;
+      margin: 10px 0;
+      transition: transform 0.3s ease; }
+    img:hover {
+      transform: scale(1.2); 
+    }
+    textarea {
+      padding: 10px;
+      width: 100%;
+      border-radius: 5px;
+      border: 2px solid gainsboro;
+      font-size: 16px;
+      resize: vertical;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+      color: darkslategray;
+    }
+  </style>
+</head>
+<body>
+
+ <title> My Portfolio - Home</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: black;
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 1px solid #ccc;
+        }
+        .logo {
+            font-size: 32px;
+            font-weight: bold;
+            color: white;
+            margin: 0;
+            text-transform: uppercase;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0 15px;
+            padding: 5px 10px;
+        }
+        nav a:hover {
+            color: gray;
+            border-bottom: 2px solid white;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        /* Profile card styling */
+        .profile-card {
+            background-color: white;
+            width: 300px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .profile-card img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        button:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="logo"> My Portfolio</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <p>Welcome to My Portfolio!.</p>
+        <fieldset>
+            <legend>User Profile</legend>
+            <div class="profile-card">
+                <img src="C:\Users\User\OneDrive\Pictures\Camera Roll\WhatsApp Image 2024-12-03 at 20.07.37_942dcdfc.jpg" alt="C:\Users\User\OneDrive\Pictures\Camera Roll\WhatsApp Image 2024-12-03 at 20.07.37_942dcdfc.jpg"class="logo.png">
+                <form action="" method="POST">
+                    <input type="text" id="name" placeholder="Enter your name" required><br><br>
+                    <input type="email" id="email" placeholder="Enter your email" required><br><br>
+                    <textarea id="bio" placeholder="Write something about yourself" rows="4" required></textarea><br><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </fieldset>
